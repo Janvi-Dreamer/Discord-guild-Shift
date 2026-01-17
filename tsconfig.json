@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    /* Language & Runtime */
+    "target": "ES2024",
+    "lib": ["ES2024"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    /* Paths */
+    "rootDir": "./src",
+    "outDir": "./.build",
+    "tsBuildInfoFile": "./.build/.tsbuildinfo",
+
+    /* Strictness */
+    "strict": true,
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    "useUnknownInCatchVariables": true,
+
+    /* Interop & Imports */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+
+    /* Build Behavior */
+    "incremental": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Debugging */
+    "sourceMap": true,
+    "inlineSources": true,
+
+    /* Output Quality */
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Safety */
+    "noEmitOnError": true
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+    ".build",
+    "**/*.test.ts",
+    "**/*.spec.ts"
+  ]
+}

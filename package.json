@@ -1,0 +1,35 @@
+{
+  "name": "discord-guild-shift-bot",
+  "version": "1.0.0",
+  "description": "Automated Discord server migration and role sync bot.",
+  "main": ".build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm install --frozen-lockfile && tsc",
+    "start": "node ./.build/index.js",
+    "dev": "tsc && node ./.build/index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "migration",
+    "typescript",
+    "open-source"
+  ],
+  "author": "Rajnish Mehta",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.20.0"
+  },
+  "packageManager": "pnpm@10.28.0",
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3",
+    "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "rimraf": "^6.1.2",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+node_modules/.cache/
+
+# Build & Cache
+.build/
+.cache/
+dist/
+out/
+coverage/
+.tsbuildinfo
+
+# Environment & Secrets
+.env.*
+!.env.example
+
+# Editor & System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+replit.md
+.replit
+.local
+.config
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Process
+*.pid
+*.seed
